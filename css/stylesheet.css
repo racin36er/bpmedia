@@ -9,20 +9,28 @@ body {
 
 header {
     display: block;
+    position: relative;
+
 }
 
 .companyname {
-    text-align: left;
-    padding: 0px 100px 75px 0px;
-    margin: 0 auto;
+    display: block;
+    position: relative;
+    float: right;
+    text-align: top;
+    margin-top: 75px;
+    padding-left: 200px;
     font-size: 15px;
 }
 
 .navigation, li {
     background-color: black;
     color: blue;
-    padding-bottom: 5px;
     display: inline-block;
+    position: relative;
+    bottom: 25px;
+    left: 275px;
+    z-index: 0;
 }
 
 table {
@@ -31,7 +39,7 @@ table {
 
 .navi, ol {
     list-style-type: none;
-    padding-right: 50px;
+    padding: 0px;
 }
 
 a {
@@ -71,6 +79,8 @@ a:active {
 
 .container {
     display: inline-block;
+    position: top;
+    margin-top: 50px;
     text-decoration: none;
     color: yellow;
     width: 70%;
@@ -93,13 +103,26 @@ a:active {
 .btn_nav {
     background-color: black;
     color: blue;
-    transition-duration: 0.4s;
+    transition-duration: 0s;
     padding: 30px 30px;
+    margin: 0px;
     font-size: 22px;
+    display: inline-block;
+
 }         
 .btn_nav:hover {
         background-color: white;
         color: black;
         text-transform: uppercase;
-      }
+ }
+
+ #mainlogo {
+    display: block;
+    position: relative;
+    float: left;
+    padding: 0px;
+    margin: 20px;
+    height: 200px;
+    width: 200px;
+    z-index: 1;
 }
