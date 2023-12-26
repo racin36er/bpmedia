@@ -15,6 +15,7 @@ header {
     text-align: left;
     padding: 0px 100px 75px 0px;
     margin: 0 auto;
+    font-size: 15px;
 }
 
 .navigation, li {
@@ -72,24 +73,23 @@ footer {
     padding-top: 150px;
 }
 
-.h1wip {
-    text-decoration: underline;
-    color: grey;
-    display: block;
-    width: 30%;
-    height: auto;
-    border: 2px dotted white;
-    z-index: 1;
-    float: left;
-}
-
 .container {
-    display: block;
+    display: inline;
     text-decoration: none;
     color: yellow;
     width: 70%;
     height: auto;
-    z-index: 0;
+    z-index: 1;
     text-align: center;
     float: right;
 }
+
+.h1wip {
+    text-decoration: underline;
+    color: grey;
+    display: inline-block;
+    width: 30%;
+    border: 2px dotted white;
+    z-index: 0;
+}
+
