@@ -60,36 +60,46 @@ a:active {
     text-decoration: none;
 }
 
-a, .navi::after {
-    content: " |";
-}
+
 
 .credits {
     display: block;
     text-align: center;
 }
 
-footer {
-    padding-top: 150px;
-}
+
 
 .container {
-    display: inline;
+    display: inline-block;
     text-decoration: none;
     color: yellow;
     width: 70%;
     height: auto;
     z-index: 1;
-    text-align: center;
-    float: right;
+    margin: -100px auto;
+    padding: 0px 0px 0px 350px;
 }
 
 .h1wip {
     text-decoration: underline;
     color: grey;
     display: inline-block;
+    margin: -0px auto;
+    padding: 0px;
     width: 30%;
-    border: 2px dotted white;
     z-index: 0;
 }
 
+.btn_nav {
+    background-color: black;
+    color: blue;
+    transition-duration: 0.4s;
+    padding: 30px 30px;
+    font-size: 22px;
+}         
+.btn_nav:hover {
+        background-color: white;
+        color: black;
+        text-transform: uppercase;
+      }
+}
